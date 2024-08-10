@@ -4,7 +4,7 @@
 }
 
 :root {
-  font-family: 'Alice', serif;
+  font-family: "Alice", serif;
   line-height: 150%;
   color: #573a37;
 }
@@ -57,4 +57,14 @@ h2 {
 
 ul {
   padding-left: 24px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
