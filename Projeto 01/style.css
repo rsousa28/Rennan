@@ -1,18 +1,35 @@
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+  font-size: 16px;
+  color: #573a37;
+}
+
 body {
   background-image: url(assents/Página\ de\ receita.png);
   background-size: cover;
-}
-
-h1,p,ul {
-  color: #291b1a;
 }
 
 #principal {
   box-sizing: border-box;
   width: 800px;
   padding: 24px;
-  background-color:#F0E8C2;
+  background-color: #f0e8c2;
   border-radius: 24px;
-  margin:48px auto ;
+  margin: 48px auto;
 }
 
+h1 {
+  color: #291b1a;
+  font-size: 40px;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  color: #291b1a;
+}
