@@ -1,8 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: "Alice", serif;
-  font-weight: 400;
+  font-family: "Open Sans", serif;
   font-style: normal;
   background-color: #f5f4f0;
 }
@@ -36,6 +35,10 @@
 
 #li-01 {
   padding: 20px;
+}
+
+#li-01 li { 
+  margin-bottom: 12px;
 }
 
 .divider {
@@ -78,7 +81,7 @@ h3 {
   font-size: 30px;
   font-weight: bold;
   align-items: center;
-  margin-left: 44px;
+  margin-left: 48px;
   padding-top: 18px;
 }
 
@@ -93,13 +96,14 @@ a {
 }
 
 .p-diferente > p {
-  color: #696969;
-
+  color: #333333;
+  font-weight: bold;
 }
 
 span > li {
   color: blue;
   margin-left: 32px;
+
 }
 
 div > p {
